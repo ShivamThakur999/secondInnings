@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { FirstInningsForm, SecondInningsForm, Opportunity } from "../types";
 
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+const apiKey = 'AIzaSyD6lHm45T1GyLXmBuV38qn5EQ9NaNtK9U8';
 
 if (!apiKey) {
   console.warn("VITE_GEMINI_API_KEY not found");
